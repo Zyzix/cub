@@ -2365,7 +2365,5 @@ if (plugCubed !== undefined) plugCubed.close();
         return o;
     });
 
-    function(a, b) {
-        plugCubed = new a();
     });
 })();
