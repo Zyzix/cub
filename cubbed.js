@@ -45,8 +45,7 @@ Math.randomRange = function(a, b) {
 if (plugCubed !== undefined) plugCubed.close();
 
 (function() {
-    if (!requirejs.defined('da676/df0c1/b4fa4'))
-        return API.chatLog('This version of plug&#179; is not compatible with this version of plug.dj', true), false;
+
 
     define('f82fae/b93191', ['jquery', 'underscore', 'da676/df0c1/b4fa4', 'da676/df0c1/fe7d6', 'da676/d8c3f/ed854', 'da676/b0e2b/e9c55', 'da676/cba08/ee33b', 'da676/ae6e4/e3166', 'da676/e0fc4/c464d', 'da676/e0fc4/b75b7', 'da676/cba08/f7bde', 'lang/Lang', 'da676/a5d9e/a7e5a/c7c00', 'f82fae/a07c86', 'da676/a5d9e/a7e5a/e6458/f273c', 'da676/a5d9e/a7e5a/e6458/b4399', 'f82fae/f36e0e', 'f82fae/f1da31', 'f82fae/ac606c', 'da676/eca1c/c95b6', 'da676/cba08/adf46', 'f82fae/d67453/c8e8fc', 'f82fae/a8c196', 'f82fae/abd868', 'f82fae/d67453/a1ab3a', 'da676/a5d9e/a7e5a/f7efa/bf595', 'da676/a5d9e/e6458/bd14d'], function($, _, Class, Context, Chat, Utils, Room, MGE, Socket, SocketListner, TUM, Lang, Audience, Styles, RoomUserListView, RoomUserListRow, _RoomUserListRow, p3Lang, p3Utils, Database, PlaybackModel, dialogCommands, Slider, VolumeView, dialogColors, PopoutView, UserRolloverView) {
         function getUserData(a, b, c) {
